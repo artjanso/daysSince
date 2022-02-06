@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Garamond, serif;
+    background-color: whitesmoke;
+}
+
+body {
+    text-align: center;
+    /*Possitions items at the center of the screen*/
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    padding-bottom: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.participant-container {
+    display: flex;
+}
+
+.participants {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    letter-spacing: 0.1rem;
+    width: 20rem;
+}
+
+#kisis{
+    margin-left: 1rem;
+}
+
+p {
+    padding: 0.5rem;
+    line-height: 1.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.stats {
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: transparent;
+
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+
+    height: 3rem;
+    width: 10rem;
+
+    color: black;
+    font-size: 1rem;
+    
+    padding: 0.5rem;
+    margin: 2rem 0.5rem;
+
+    transition: ease-in-out 0.3s;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
